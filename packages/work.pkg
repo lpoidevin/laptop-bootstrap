@@ -1,0 +1,22 @@
+# Developer tools
+git
+git-lfs
+podman
+toolbox
+fish
+kitty
+
+# Languages
+python3
+python3-pip
+golang
+
+# Optional system utils
+#gnupg2
+#nmap
+#iperf3
+#wireshark
+
+# Extras
+starship  # Prompt
+nerd-fonts  # Custom fonts

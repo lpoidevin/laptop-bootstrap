@@ -1,0 +1,6 @@
+# Fedora apps
+#fedora:com.nextcloud.desktopclient.nextcloud
+
+# Flathub apps
+flathub:org.videolan.VLC
+flathub:com.spotify.Client

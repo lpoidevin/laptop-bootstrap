@@ -1,0 +1,7 @@
+# Fedora apps
+fedora:com.nextcloud.desktopclient.nextcloud
+
+# Flathub apps
+flathub:org.zotero.Zotero
+flathub:com.visualstudio.code
+flathub:md.obsidian.Obsidian

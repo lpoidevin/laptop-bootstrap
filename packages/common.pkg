@@ -1,0 +1,10 @@
+# Essential CLI tools
+curl
+mtr
+bind-utils
+whois
+rsync
+yubikey-manager
+
+# Fonts and appearance
+#fira-code-fonts
