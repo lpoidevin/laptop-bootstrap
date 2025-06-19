@@ -1,6 +1,10 @@
 # Fedora apps
-#fedora:com.nextcloud.desktopclient.nextcloud
+fedora:org.inkscape.Inkscape
+fedora:org.gnome.Baobab
+fedora:org.gnome.Connections
+fedora:org.gnome.Ptyxis
+fedora:org.gnome.SimpleScan
 
 # Flathub apps
-flathub:org.videolan.VLC
-flathub:com.spotify.Client
+flathub:net.ankiweb.Anki
+flathub:eu.usdx.UltraStarDeluxe

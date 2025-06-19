@@ -1,8 +1,20 @@
 # Fedora apps
-fedora:org.gnome.Extensions
+fedora:org.gnome.Calculator
+fedora:org.gnome.Calendar
+fedora:org.gnome.Clocks
+fedora:org.gnome.Decibels
 fedora:org.gnome.DejaDup
+fedora:org.gnome.Extensions
+fedora:org.gnome.Evince
+fedora:org.gnome.Loupe
+fedora:org.gnome.Showtime
+fedora:org.gnome.Snapshot
+fedora:org.gnome.Maps
+fedora:org.gnome.Weather
+fedora:org.gnome.TextEditor
 
 # Flathub apps
 flathub:app.zen_browser.zen
 flathub:com.bitwarden.desktop
 flathub:com.discordapp.Discord
+flathub:net.nokyan.Resources

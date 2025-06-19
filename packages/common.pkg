@@ -1,10 +1,18 @@
 # Essential CLI tools
 curl
-mtr
-bind-utils
-whois
 rsync
+
+# Network tools
+bind-utils
+mtr
+whois
+
+# Git
+git
+git-lfs
+
+# Security key
 yubikey-manager
 
-# Fonts and appearance
-#fira-code-fonts
+# TPM2
+tpm2-tools

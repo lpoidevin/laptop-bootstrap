@@ -1,21 +1,19 @@
 # Developer tools
-git
-git-lfs
-podman
 toolbox
+
+# Shell & terminal
 fish
 kitty
 
 # Languages
 python3
-python3-pip
 golang
 
-# Optional system utils
-#gnupg2
-#nmap
-#iperf3
-#wireshark
+# Python tools
+python3-pip
+python3-pympress
+
+# Nvidia
 
 # Extras
 starship  # Prompt

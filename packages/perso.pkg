@@ -1,21 +1,22 @@
-# Shell & terminal
-fish
-kitty
-starship
+# Developer tools
 toolbox
+opentofu
 
-# Development tools
-git
-git-lfs
+# Languages
 python3
+
+# Python tools
 python3-pip
-nodejs
-neovim
 
-# Media & personal
-vlc
-pympress
-gthumb
+# VPN
+#wireguard-tools
 
-# Fonts
-nerd-fonts
+# System utils
+nmap
+picocom
+wireshark
+#gnupg2
+#iperf3
+
+# Extras
+fira-code-fonts
