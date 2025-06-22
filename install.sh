@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: MIT
 # install.sh - Entrypoint to bootstrap a Linux laptop.
 
 set -euo pipefail

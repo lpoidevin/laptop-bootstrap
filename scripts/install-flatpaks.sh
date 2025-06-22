@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: MIT
 # install-flatpaks.sh - Install flatpaks from flatpaks/<profile>.flatpak
 
 set -euo pipefail

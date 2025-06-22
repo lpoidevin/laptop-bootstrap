@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: MIT
 # gnome-tweaks.sh - Apply GNOME desktop settings per profile.
 
 set -euo pipefail

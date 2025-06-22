@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: MIT
 # Utility functions for logging and error handling
 
 # ANSI color codes (only if output is a terminal)
