@@ -22,9 +22,9 @@ init_dotfiles() {
     log "Dotfiles initialized. You can now add and commit tracked files."
 }
 
-install_dotfiles() {
+restore_dotfiles() {
     local repo_url="${1:-}"
-    [[ -z "$repo_url" ]] && abort "Missing repo URL for 'install'"
+    [[ -z "$repo_url" ]] && abort "Missing repo URL for 'restore'"
 
     log "Cloning dotfiles repo: ${repo_url}"
     git clone --bare "$repo_url" "$DOTFILES_DIR"
@@ -47,11 +47,11 @@ main() {
         init)
             init_dotfiles
             ;;
-        install)
-            install_dotfiles "${2:-}"
+        restore)
+            restore_dotfiles "${2:-}"
             ;;
         *)
-            abort "Usage: $0 {init|install <git-repo-url>}"
+            abort "Usage: $0 {init|restore <git-repo-url>}"
             ;;
     esac
 }

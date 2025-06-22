@@ -46,7 +46,6 @@ fi
 ./scripts/setup-profile.sh "$PROFILE"
 
 # --- Reboot Recommendation ---
-if [[ -f /var/run/reboot-required ]] || \
-   [[ "$(rpm -q kernel | wc -l)" -gt 1 ]]; then
+if [[ -f /var/run/reboot-required ]]; then
     warn "A system reboot is recommended to complete updates."
 fi
