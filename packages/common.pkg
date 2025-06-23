@@ -19,3 +19,6 @@ tpm2-tools
 
 # Japanese Input support
 ibus-mozc
+
+# Extras
+fira-code-fonts

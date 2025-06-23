@@ -10,7 +10,6 @@ source ./scripts/_utils.sh
 # --- Enable required COPR repositories ---
 log "Enabling Copr repositories..."
 COPRS=(
-    "che/nerd-fonts"
     "atim/starship"
     "cimbali/pympress"
 )
