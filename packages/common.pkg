@@ -16,3 +16,6 @@ yubikey-manager
 
 # TPM2
 tpm2-tools
+
+# Japanese Input support
+ibus-mozc

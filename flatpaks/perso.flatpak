@@ -6,5 +6,6 @@ fedora:org.gnome.Ptyxis
 fedora:org.gnome.SimpleScan
 
 # Flathub apps
-flathub:net.ankiweb.Anki
+flathub:com.discordapp.Discord
 flathub:eu.usdx.UltraStarDeluxe
+flathub:net.ankiweb.Anki

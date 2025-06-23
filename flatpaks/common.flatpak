@@ -16,5 +16,4 @@ fedora:org.gnome.TextEditor
 # Flathub apps
 flathub:app.zen_browser.zen
 flathub:com.bitwarden.desktop
-flathub:com.discordapp.Discord
 flathub:net.nokyan.Resources
