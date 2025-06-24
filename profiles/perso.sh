@@ -12,6 +12,3 @@ source ./scripts/_utils.sh
 
 # log "Creating directories..."
 # mkdir -p ~/Projects ~/Downloads/tmp
-
-# log "GNOME Tweaks..."
-# ./scripts/gnome-tweaks.sh perso

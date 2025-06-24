@@ -34,7 +34,3 @@ if [[ "$(basename "$SHELL")" != "fish" ]]; then
 else
     log "Shell already set to fish. Skipping."
 fi
-
-# --- Optional GNOME tweaks ---
-# log "Applying GNOME tweaks for 'work'..."
-# ./scripts/gnome-tweaks.sh work

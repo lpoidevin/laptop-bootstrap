@@ -38,6 +38,14 @@ sudo dnf remove -yq \
     ptyxis \
     yelp
 
+log "Removing unnecessary GNOME Shell extensions..."
+sudo dnf remove -yq \
+    gnome-shell-extension-apps-menu \
+    gnome-shell-extension-background-logo \
+    gnome-shell-extension-launch-new-instance \
+    gnome-shell-extension-places-menu \
+    gnome-shell-extension-window-list
+
 ./scripts/install-packages.sh common
 ./scripts/install-flatpaks.sh common
 
