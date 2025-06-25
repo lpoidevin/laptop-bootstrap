@@ -31,11 +31,13 @@ sudo dnf remove -yq \
     gnome-weather \
     libreoffice-* \
     loupe \
-    simple-scan \
-    snapshot \
     malcontent-control \
     mediawriter \
     ptyxis \
+    rhythmbox \
+    simple-scan \
+    snapshot \
+    totem \
     yelp
 
 log "Removing unnecessary GNOME Shell extensions..."

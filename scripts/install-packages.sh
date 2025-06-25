@@ -20,7 +20,7 @@ while IFS= read -r pkg; do
     [[ -z "$pkg" ]] && continue   # Skip empty lines
 
     log "Installing: $pkg"
-    sudo dnf install -yq "$pkg"
+    sudo dnf install --setopt=install_weak_deps=False -yq "$pkg"
 done < "$PACKAGE_FILE"
 
 log "All packages for $PROFILE installed."
