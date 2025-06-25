@@ -10,6 +10,7 @@ whois
 # Git
 git
 git-lfs
+lazygit
 
 # Security key
 yubikey-manager

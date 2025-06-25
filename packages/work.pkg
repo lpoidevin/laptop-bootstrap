@@ -15,5 +15,8 @@ python3-pympress
 
 # Nvidia
 
+# Printer drivers
+foomatic-db-ppds
+
 # Extras
 starship  # Prompt

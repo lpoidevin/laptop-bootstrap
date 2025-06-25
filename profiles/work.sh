@@ -34,3 +34,28 @@ if [[ "$(basename "$SHELL")" != "fish" ]]; then
 else
     log "Shell already set to fish. Skipping."
 fi
+
+# --- Add printers ---
+log "Configuring printers..."
+PRINTERS=(
+    "IMP-INFO-003|smb://imp-br-01.ad.imta.fr/imp-info-003|HP LaserJet M607.*Postscript"
+    "copieurs-avec-badge|smb://imp-br-01.ad.imta.fr/copieurs-avec-badge|Ricoh MP C3004ex.*PS"
+)
+
+for entry in "${PRINTERS[@]}"; do
+    IFS='|' read -r name uri ppd_pattern <<< "$entry"
+    log "Searching for PPD matching: $ppd_pattern"
+    
+    matched_ppd=$(lpinfo -m | grep -E "$ppd_pattern" | awk '{print $1}' | head -n 1 || true)
+
+    if [[ -n "$matched_ppd" ]]; then
+        log "Using PPD: $matched_ppd for printer: $name"
+        if lpadmin -E -p "$name" -v "$uri" -m "$matched_ppd"; then
+            log "Successfully added printer: $name"
+        else
+            warn "Failed to add printer: $name"
+        fi
+    else
+        warn "No matching PPD found for printer: $name (pattern: $ppd_pattern)"
+    fi
+done
