@@ -10,6 +10,7 @@ source ./scripts/_utils.sh
 # --- Enable required COPR repositories ---
 log "Enabling Copr repositories..."
 COPRS=(
+    "atim/lazygit"
     "atim/starship"
     "cimbali/pympress"
 )
@@ -35,7 +36,7 @@ else
     log "Shell already set to fish. Skipping."
 fi
 
-# --- Add printers ---
+# --- Configure printers ---
 log "Configuring printers..."
 PRINTERS=(
     "IMP-INFO-003|smb://imp-br-01.ad.imta.fr/imp-info-003|HP LaserJet M607.*Postscript"
@@ -50,7 +51,7 @@ for entry in "${PRINTERS[@]}"; do
 
     if [[ -n "$matched_ppd" ]]; then
         log "Using PPD: $matched_ppd for printer: $name"
-        if lpadmin -E -p "$name" -v "$uri" -m "$matched_ppd"; then
+        if lpadmin -p "$name" -E -v "$uri" -m "$matched_ppd"; then
             log "Successfully added printer: $name"
         else
             warn "Failed to add printer: $name"

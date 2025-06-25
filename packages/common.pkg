@@ -7,11 +7,6 @@ bind-utils
 mtr
 whois
 
-# Git
-git
-git-lfs
-lazygit
-
 # Security key
 yubikey-manager
 
