@@ -1,7 +1,7 @@
 # Shell & terminal
 fish
-kitty
 starship
+wezterm
 
 # Developer tools
 toolbox

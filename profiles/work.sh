@@ -13,6 +13,7 @@ COPRS=(
     "atim/lazygit"
     "atim/starship"
     "cimbali/pympress"
+    "wezfurlong/wezterm-nightly"
 )
 
 for repo in "${COPRS[@]}"; do
@@ -46,7 +47,7 @@ PRINTERS=(
 for entry in "${PRINTERS[@]}"; do
     IFS='|' read -r name uri ppd_pattern <<< "$entry"
     log "Searching for PPD matching: $ppd_pattern"
-    
+
     matched_ppd=$(lpinfo -m | grep -E "$ppd_pattern" | awk '{print $1}' | head -n 1 || true)
 
     if [[ -n "$matched_ppd" ]]; then
