@@ -1,13 +1,14 @@
+# Shell & terminal
+fish
+kitty
+starship
+
 # Developer tools
 toolbox
 
 # Git
 git-lfs
 lazygit
-
-# Shell & terminal
-fish
-kitty
 
 # Languages
 python3
@@ -23,6 +24,3 @@ python3-pympress
 
 # Printer drivers
 foomatic-db-ppds
-
-# Extras
-starship  # Prompt

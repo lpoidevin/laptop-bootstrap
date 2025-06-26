@@ -18,11 +18,9 @@ fira-code-fonts
 
 # Gnome Shell extensions
 gnome-shell-extension-appindicator          # AppIndicator/KStatusNotifierItem support for GNOME Shell
-gnome-shell-extension-blur-my-shell         # Adds a blur look to different parts of the GNOME Shell
+#gnome-shell-extension-blur-my-shell         # Adds a blur look to different parts of the GNOME Shell
 #gnome-shell-extension-caffeine              # Disable the screen saver and auto suspend in gnome shell
-#gnome-shell-extension-drive-menu            # Drive status menu for GNOME Shell
 gnome-shell-extension-freon                 # GNOME Shell extension to display system temperature, voltage, and fan speed
-#gnome-shell-extension-gpaste                # GNOME Shell extension for GPaste
-#gnome-shell-extension-screen-autorotate     # Dynamic Screen rotation for GNOME Shell
-#gnome-shell-extension-vertical-workspaces   # Customize your GNOME Shell UX to suit your workflow
-#gnome-shell-extension-workspace-indicator   # Workspace indicator for GNOME Shell
+gnome-shell-extension-screen-autorotate     # Dynamic Screen rotation for GNOME Shell
+gnome-shell-extension-vertical-workspaces   # Customize your GNOME Shell UX to suit your workflow
+gnome-shell-extension-workspace-indicator   # Workspace indicator for GNOME Shell

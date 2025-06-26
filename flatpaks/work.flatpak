@@ -2,6 +2,6 @@
 fedora:com.nextcloud.desktopclient.nextcloud
 
 # Flathub apps
-flathub:org.zotero.Zotero
-flathub:com.visualstudio.code
+flathub:dev.zed.Zed
 flathub:md.obsidian.Obsidian
+flathub:org.zotero.Zotero
