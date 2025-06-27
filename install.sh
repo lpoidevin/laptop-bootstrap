@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: MIT
-# install.sh - Entrypoint to bootstrap a Linux laptop.
+# Entrypoint to bootstrap a Linux laptop.
 
 set -euo pipefail
 IFS=$'\n\t'

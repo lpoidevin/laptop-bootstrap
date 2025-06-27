@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: MIT
-# install-flatpaks.sh - Install flatpaks from flatpaks/<profile>.flatpak
+# Install flatpaks from flatpaks/<profile>.flatpak
 
 set -euo pipefail
 IFS=$'\n\t'
@@ -15,9 +15,9 @@ readonly FLATPAK_FILE="./flatpaks/${PROFILE}.flatpak"
 log "Installing flatpaks for profile: $PROFILE"
 
 while IFS= read -r line; do
-    line="${line%%#*}"              # Remove comments
-    line="$(echo "$line" | xargs)"  # Trim
-    [[ -z "$line" ]] && continue    # Skip empty
+    line="${line%%#*}"              # Strip comments
+    line="$(echo "$line" | xargs)"  # Trim whitespace
+    [[ -z "$line" ]] && continue    # Skip empty lines
 
     if [[ "$line" == fedora:* ]]; then
         pkg="${line#fedora:}"

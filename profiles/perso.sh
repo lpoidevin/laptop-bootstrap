@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: MIT
-# perso.sh - Personal environment setup
+# Personal environment setup
 
 set -euo pipefail
 IFS=$'\n\t'

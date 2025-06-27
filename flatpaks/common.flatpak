@@ -7,6 +7,7 @@ fedora:org.gnome.DejaDup
 fedora:org.gnome.Extensions
 fedora:org.gnome.Evince
 fedora:org.gnome.Loupe
+fedora:org.gnome.seahorse.Application
 fedora:org.gnome.Showtime
 fedora:org.gnome.Snapshot
 fedora:org.gnome.Maps

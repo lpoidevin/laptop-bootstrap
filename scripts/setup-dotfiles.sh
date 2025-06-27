@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: MIT
-# setup-dotfiles.sh - Manage dotfiles via bare Git repository.
+# Manage dotfiles via bare Git repository.
 
 set -euo pipefail
 IFS=$'\n\t'

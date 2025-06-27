@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: MIT
-# install-packages.sh - Install RPM packages by profile
+# Install RPM packages by profile
 
 set -euo pipefail
 IFS=$'\n\t'
