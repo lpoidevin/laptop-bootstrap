@@ -21,6 +21,22 @@ for repo in "${COPRS[@]}"; do
     sudo dnf copr enable -y "$repo" > /dev/null 2>&1 || warn "Failed to enable: $repo"
 done
 
+# --- Enable RPM Fusion repositories (free and nonfree) ---
+log "Enabling RPM Fusion repositories..."
+if ! rpm -q rpmfusion-free-release > /dev/null 2>&1; then
+    sudo dnf install -y \
+        https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+else
+    log "RPM Fusion free already enabled. Skipping."
+fi
+
+if ! rpm -q rpmfusion-nonfree-release > /dev/null 2>&1; then
+    sudo dnf install -y \
+        https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+else
+    log "RPM Fusion nonfree already enabled. Skipping."
+fi
+
 # --- Package and Flatpak installation ---
 ./scripts/install-packages.sh work
 ./scripts/install-flatpaks.sh work

@@ -25,3 +25,6 @@ xorg-x11-drv-nvidia-power
 
 # Printer drivers
 foomatic-db-ppds
+
+# Webcam drivers
+akmod-intel-ipu6
