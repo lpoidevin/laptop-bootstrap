@@ -13,6 +13,7 @@ fedora:org.gnome.Snapshot
 fedora:org.gnome.Maps
 fedora:org.gnome.Weather
 fedora:org.gnome.TextEditor
+fedora:org.libreoffice.LibreOffice
 
 # Flathub apps
 flathub:app.zen_browser.zen
