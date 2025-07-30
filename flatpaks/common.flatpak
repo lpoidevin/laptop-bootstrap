@@ -7,7 +7,6 @@ fedora:org.gnome.DejaDup
 fedora:org.gnome.Extensions
 fedora:org.gnome.Evince
 fedora:org.gnome.Loupe
-fedora:org.gnome.seahorse.Application
 fedora:org.gnome.Showtime
 fedora:org.gnome.Snapshot
 fedora:org.gnome.Maps
@@ -16,6 +15,7 @@ fedora:org.gnome.TextEditor
 fedora:org.libreoffice.LibreOffice
 
 # Flathub apps
+flathub:app.drey.KeyRack
 flathub:app.zen_browser.zen
 flathub:com.bitwarden.desktop
 flathub:net.nokyan.Resources
