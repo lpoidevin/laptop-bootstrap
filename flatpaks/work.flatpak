@@ -1,9 +1,14 @@
 # Fedora apps
 fedora:com.nextcloud.desktopclient.nextcloud
+#fedora:org.chromium.Chromium
 
 # Flathub apps
 flathub:dev.zed.Zed
 flathub:im.riot.Riot
 flathub:md.obsidian.Obsidian
 flathub:org.zotero.Zotero
-flathub:re.sonny.Eloquent
+
+flathub:garden.jamie.Morphosis
+#flathub:io.github.flattool.Ignition
+#flathub:io.github.flattool.Warehouse
+#flathub:re.sonny.Eloquent

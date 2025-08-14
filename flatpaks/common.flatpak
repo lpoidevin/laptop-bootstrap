@@ -13,9 +13,9 @@ fedora:org.gnome.Maps
 fedora:org.gnome.Weather
 fedora:org.gnome.TextEditor
 fedora:org.libreoffice.LibreOffice
+fedora:org.mozilla.firefox
 
 # Flathub apps
 flathub:app.drey.KeyRack
-flathub:app.zen_browser.zen
 flathub:com.bitwarden.desktop
 flathub:net.nokyan.Resources

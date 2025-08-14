@@ -43,15 +43,15 @@ fi
 
 # --- Directory creation ---
 log "Creating development directories..."
-mkdir -p "$HOME"/Development/{GitHub,IMTA,local} "$HOME"/Nextcloud/IMTA
+mkdir -p "$HOME"/Development/{GitHub,IMTA,local}
 
 # --- Change user shell ---
-if [[ "$(basename "$SHELL")" != "fish" ]]; then
-    log "Changing shell to fish..."
-    sudo chsh "$(whoami)" -s /usr/bin/fish || warn "Could not change shell."
-else
-    log "Shell already set to fish. Skipping."
-fi
+# if [[ "$(basename "$SHELL")" != "fish" ]]; then
+#     log "Changing shell to fish..."
+#     sudo chsh "$(whoami)" -s /usr/bin/fish || warn "Could not change shell."
+# else
+#     log "Shell already set to fish. Skipping."
+# fi
 
 # --- Configure printers ---
 log "Configuring printers..."

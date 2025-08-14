@@ -1,5 +1,5 @@
 # Shell & terminal
-fish
+#fish
 starship
 wezterm
 
@@ -8,7 +8,6 @@ toolbox
 
 # Git
 git-lfs
-lazygit
 
 # Languages
 python3
