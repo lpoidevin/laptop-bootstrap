@@ -1,13 +1,13 @@
 # Shell & terminal
-#fish
 starship
 wezterm
 
 # Developer tools
-toolbox
+#toolbox
 
 # Git
 git-lfs
+lazygit
 
 # Languages
 python3
@@ -20,7 +20,7 @@ python3-pympress
 # Nvidia
 akmod-nvidia
 xorg-x11-drv-nvidia-cuda
-xorg-x11-drv-nvidia-power
+#xorg-x11-drv-nvidia-power
 
 # Printer drivers
 foomatic-db-ppds

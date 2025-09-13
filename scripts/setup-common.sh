@@ -17,8 +17,8 @@ sudo dnf remove -yq \
     baobab \
     firefox \
     evince \
-    gnome-calculator \
-    gnome-calendar \
+    #gnome-calculator \
+    #gnome-calendar \
     gnome-characters \
     gnome-clocks \
     gnome-connections \

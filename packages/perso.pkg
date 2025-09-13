@@ -11,6 +11,9 @@ python3-pip
 # VPN
 #wireguard-tools
 
+# Tools
+yt-dlp
+
 # System utils
 nmap
 picocom

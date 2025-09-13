@@ -1,6 +1,6 @@
 # Fedora apps
-fedora:org.gnome.Calculator
-fedora:org.gnome.Calendar
+#fedora:org.gnome.Calculator
+#fedora:org.gnome.Calendar
 fedora:org.gnome.clocks
 fedora:org.gnome.Decibels
 fedora:org.gnome.DejaDup
@@ -19,3 +19,4 @@ fedora:org.mozilla.firefox
 flathub:app.drey.KeyRack
 flathub:com.bitwarden.desktop
 flathub:net.nokyan.Resources
+#flathub:org.mozilla.firefox
